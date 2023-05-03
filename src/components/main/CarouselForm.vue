@@ -34,7 +34,7 @@
 							<div class="col-sm-12 col-md-6 text-md-start">
 								<div class="py-5" style="text-align: right; margin-right: 25px;">
 									<h1 style="font-size: 80px;" class="text-white fw-bold">
-										Welcome to <br>Self Salade Sell	
+										Welcome to <br>Self Salad Sell	
 									</h1>
 									<p class="text-white mb-4 fs-2">
 										당신의 샐러드로 건강한 하루를 시작하세요.

@@ -201,6 +201,6 @@ async reqMyOrderListToSpring({commit}) {
         commit(REQUEST_COMPLETE_ORDER_TO_SPRING, res.data)
     })
 }
-
+}
 
 
