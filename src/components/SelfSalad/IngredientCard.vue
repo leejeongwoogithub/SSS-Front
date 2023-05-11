@@ -207,8 +207,8 @@ export default{
     
   }
   .ingredientImage img{
-    width :100%;
-    height: auto;
+    width :240px;
+    height: 240px;
     border-radius: 100%;
   }
   .ingredientName::before{
