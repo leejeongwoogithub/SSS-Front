@@ -33,12 +33,6 @@
             <input type="text" class="form-control" aria-label="Sizing example input"
               aria-describedby="inputGroup-sizing-default" v-model="price" id="inputGroup-sizing-lg">
           </div>
-
-          <div class="input-group mb-3" style="width: 550px; height: 300px; margin: 10px;">
-            <span style="width: 150px;" class="input-group-text" id="inputGroup-sizing-default">상세정보</span>
-            <input type="text" class="form-control" aria-label="Sizing example input"
-              aria-describedby="inputGroup-sizing-default" v-model="content" id="inputGroup-sizing-lg">
-          </div>
         </div>
         </v-col>
       </v-row>
@@ -58,7 +52,6 @@ export default {
   data() {
     return {
       title: "제목을 입력하세요.",
-      content: "내용을 입력하세요.",
       price: 0,
       imgUrl: "",
     }
@@ -67,10 +60,9 @@ export default {
     onSubmit() {
       let formData = new FormData();
       formData.append("fileList", this.files[0]);
-      const { title, content, price } = this;
+      const { title, price } = this;
       let productInfo = {
         title: title,
-        content: content,
         price: price,
       };
       formData.append(
