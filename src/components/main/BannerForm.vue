@@ -48,7 +48,7 @@
 
     
 
-    <div class="py-5">
+    <div style="margin-top: 150px !important;">
       <div>
         <div align="left" style="font-weight: bold; font-size: 24px;">
           <h4>지금 가장 핫한 샐러드</h4>
@@ -83,7 +83,7 @@
       </div>
     </div>
 
-    <div class="py-5">
+    <div style="margin-top: 50px !important;">
       <div>
         <div align="left" style="font-weight: bold; font-size: 24px;">
           <h4>샐러드와 든든함을 더해봐요</h4>
