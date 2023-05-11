@@ -9,13 +9,13 @@
             <router-link :to="{ name: 'IngredientListPage' }">Self Salad</router-link>
           </li>
           <li>
-            <router-link :to="{ name: 'ProductListPage' }"></router-link>
+            <router-link :to="{ name: 'ProductListPage' }">Salad</router-link>
           </li>
           <li>
-            <router-link :to="{ name: 'SideProductListPage' }">사이드 메뉴</router-link>
+            <router-link :to="{ name: 'SideProductListPage' }">Side</router-link>
           </li>
           <li>
-            <router-link :to="{ name: 'QnaBoardListPage' }">자유게시판</router-link>
+            <router-link :to="{ name: 'QnaBoardListPage' }">Community</router-link>
           </li>
         </ul>
       </v-app-bar>
